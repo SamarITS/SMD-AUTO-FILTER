@@ -1,4 +1,4 @@
-# Codeded By @Tamilan_BotsZ
+# Codeded By @SAM_DUB_LEZHA
 import asyncio
 import re
 import ast
