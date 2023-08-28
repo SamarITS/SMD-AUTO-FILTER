@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/QTVS_BOT_X_CLOUD')
+                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Qtmve_linkzZz')
             ],
             [
                 InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -43,21 +43,21 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
 
-            InlineKeyboardButton('🍁𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
 
             ],[
 
-            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/qtmve_linkzZz'),
 
-            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/+LV_Q9SsajwRkNjdl')
-
-            ],[
-
-            InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data= 'about')
+            InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/+5zdnXfOqEEwxNjQ1')
 
             ],[
 
-            InlineKeyboardButton('🍁 𝗘𝗡𝗗 🍁', callback_data='close_data')
+            InlineKeyboardButton('🗽 𝐒𝐞𝐞 𝐚𝐛𝐨𝐮𝐭 👨‍🏫', callback_data= 'about')
+
+            ],[
+
+            InlineKeyboardButton('🍁 𝐂𝐥𝐨𝐬𝐞 🍁', callback_data='close_data')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -77,7 +77,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🍁𝕁𝕆𝕀ℕ ℕ𝕆𝕎 𝕄𝕐 ℂℍ𝔸ℕℕ𝔼𝕃🍁", url=invite_link.invite_link
+                    "👇𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!👇", url=invite_link.invite_link
                 )
             ]
         ]
@@ -98,14 +98,14 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('🍁𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/+LV_Q9SsajwRkNjdl')
+            InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/Qtmve_linkzZz'),
+            InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/+5zdnXfOqEEwxNjQ1')
             ],[
-            InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data= 'about')
+            InlineKeyboardButton('🗽 𝐒𝐞𝐞 𝐚𝐛𝐨𝐮𝐭 👨‍🏫', callback_data= 'about')
             ],[
-            InlineKeyboardButton('🍁 𝗘𝗡𝗗 🍁', callback_data='close_data') 
+            InlineKeyboardButton('🍁 𝐂𝐥𝐨𝐬𝐞 🍁', callback_data='close_data') 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
