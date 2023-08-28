@@ -1,11 +1,11 @@
 class script(object):
     START_TXT = """<𝐛>𝐇𝐞𝐥𝐥𝐨... {}
     
-𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/qtmvefilrer_bot>🎋𝐏𝐮𝐥𝐥𝐢𝐧𝐠𝐨𝐨😈</𝐛></𝐚>
+𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=http://t.me/qtmvefilrer_bot><b>🎋𝐏𝐮𝐥𝐥𝐢𝐧𝐠𝐨𝐨😈</𝐛></𝐚>
 
 𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬, 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐌𝐚𝐤𝐞 𝐌𝐞 𝐀𝐝𝐦𝐢𝐧.. 𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫
 
-𝐌𝐚𝐤𝐞𝐫 𝐌𝐞 <a href=https://t.me/Owner_of_qtmve>♣𝐀𝐮𝐭𝐡𝐨𝐫🥀</𝐛></𝐚></𝐛>"""
+𝐌𝐚𝐤𝐞𝐫 𝐌𝐞 <a href=https://t.me/Owner_of_qtmve><b>♣𝐀𝐮𝐭𝐡𝐨𝐫🥀</𝐛></𝐚></𝐛>"""
 
     HELP_TXT = """<b>Hᴇʏ {} Fʀɪᴇɴᴅ Hᴇʀᴇ Yᴏᴜʀ Bᴜᴛᴛᴏɴs 👇</b>"""
 
@@ -40,9 +40,9 @@ class script(object):
 
 - & Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
 
-    SOURCE_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @SAM_DUB_LEZHA</b>
+    SOURCE_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Qtmve_LinkzZz</b>
 
-- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SMD_Owner>SAMAR</a></b>
+- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/Owner_of_qtmve>SAMAR</a></b>
 
 - Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
 
