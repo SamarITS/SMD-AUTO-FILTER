@@ -88,18 +88,18 @@ class script(object):
 
     STATUS_TXT = """<b><u>Cᴜʀʀᴇɴᴛ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs</b></u>
     
-<b>📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
-👩🏻‍💻 ᴜsᴇʀs: <code>{}</code>
-👥 ɢʀᴏᴜᴘs: <code>{}</code>
-🗂️ ᴏᴄᴄᴜᴘɪᴇᴅ: <code>{}</code>
-🗄️ ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code></b>
+<b>♣𝐒𝐚𝐯𝐞𝐝 𝐅𝐢𝐥𝐞𝐬 : <code>{}</code>
+👨‍🏫 𝐓𝐨𝐭𝐚𝐥 𝐔𝐬𝐞𝐫: <code>{}</code>
+🛖 𝐆𝐫𝐨𝐮𝐩𝐬: <code>{}</code>
+🚭 𝐔𝐬𝐞𝐝 𝐒𝐭𝐨𝐫𝐚𝐠𝐞: <code>{}</code>
+🗽 𝐅𝐫𝐞𝐞 𝐒𝐭𝐨𝐫𝐚𝐠𝐞: <code>{}</code></b>
 """
     LOG_TEXT_G = """<b> #NewGroup
-👥 ɢʀᴏᴜᴘ 👥 = {}(<code>{}</code>)
-😇 ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs 😇 = <code>{}</code>
-💌 ᴀᴅᴅᴇᴅ ʙʏ 💌 - {} </b>
+👥 𝐆𝐫𝐨𝐮𝐩 👥 = {}(<code>{}</code>)
+👨‍🏫 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐜𝐨𝐮𝐧𝐭 👨‍🏫 = <code>{}</code>
+🥴𝐀𝐝𝐝𝐞𝐝 𝐛𝐲🥴 - {} </b>
 """
     LOG_TEXT_P = """<b> #NewUser
-ɪᴅ ♥️- <code>{}</code>
-ɴᴀᴍᴇ 💥- {} </b>
+♣𝐈𝐝⚜️- <code>{}</code>
+🌿𝐍𝐚𝐦𝐞🎋- {} </b>
 """
