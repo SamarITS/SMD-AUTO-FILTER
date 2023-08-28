@@ -21,13 +21,13 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
     
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
-    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Samandes_bot>ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ</a>
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/SMD_Owner>Samar</a>
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ғʀᴇᴇ ʜᴏsᴛɪɴɢ
-📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/+LV_Q9SsajwRkNjdl>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://t.me/QTVS_BOT_X_CLOUD>ʀᴇᴩᴏ ʟɪɴᴋ</a></b>"""
+    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Samandes_bot>🎋𝗣𝗨𝗟𝗟𝗜𝗡𝗚𝗢🎋</a>
+👨‍💻 𝗔𝗨𝗧𝗛𝗢𝗥 : <a href=https://t.me/SMD_Owner>🍁𝗠𝗔𝗟𝗔𝗧𝗛𝗜🍁</a>
+📝 𝗖𝗢𝗗𝗘 𝗘𝗗𝗜𝗧𝗜𝗢𝗡: <a href=https://t.me/SMD_Owner>🍁𝗣𝗥𝗜𝗬𝗔🍁</a>
+📚 𝗚𝗥𝗔𝗗𝗨𝗔𝗧𝗘 : <a href=https://t.me/SMD_Owner>🍁𝗛𝗘𝗠𝗔🍁</a>
+📡 𝗪𝗜𝗙𝗘 𝗡𝗔𝗠𝗘 : <a href=https://t.me/SMD_Owner>🍁𝗞𝗔𝗩𝗬𝗔🍁</a>
+📢 𝗟𝗢𝗩𝗘𝗥 𝗡𝗔𝗠𝗘: <a href=https://t.me/QTVS_BOT_X_CLOUD>🍁𝗠𝗔𝗔𝗥𝗔𝗡🍁</a>
+🌟 𝗦𝗨𝗣𝗘𝗥 𝗠𝗔𝗥𝗧 : <a href=https://t.me/QTVS_BOT_X_CLOUD>🍁𝗞𝗨𝗠𝗔𝗔𝗥𝗔𝗡🍁</a></b>"""
 
     SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @SAM_DUB_LEZHA
 
