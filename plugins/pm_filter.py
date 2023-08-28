@@ -438,16 +438,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🍁𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/+LV_Q9SsajwRkNjdl')
+            InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/+LV_Q9SsajwRkNjdl')
             ],[
-            InlineKeyboardButton('☠️ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 ☠️', callback_data='sources')
+            InlineKeyboardButton('🍀 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ☘️', callback_data='sources')
             ],[
-            InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data= 'about')
+            InlineKeyboardButton('🗽 𝐒𝐞𝐞 𝐚𝐛𝐨𝐮𝐭 👨‍🏫', callback_data= 'about')
             ],[
-            InlineKeyboardButton('🍁 𝗘𝗡𝗗 🍁', callback_data='close_data')
+            InlineKeyboardButton('🍁 𝐂𝐥𝐨𝐬𝐞 🍁', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -457,21 +457,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🦞 𝗨𝗣𝗗𝗔𝗧𝗦 ❄', url='https://t.me/QTVS_BOT_X_CLOUD'),
-            InlineKeyboardButton('👾 𝗦𝗛𝗔𝗥𝗘 𝗠𝗘 🌿', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
+            InlineKeyboardButton('🦞 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ❄', url='https://t.me/Qtmve_linkzZz'),
+            InlineKeyboardButton('👾 𝐒𝐡𝐚𝐫𝐞 𝐦𝐞 🌿', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
-            InlineKeyboardButton('🌹 𝗦𝗧𝗔𝗧𝗦 🗽', callback_data='stats'),
-            InlineKeyboardButton('💐 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 👨‍🏫', callback_data='contact')
+            InlineKeyboardButton('🌹𝐂𝐡𝐞𝐚𝐤 𝐒𝐭𝐚𝐭𝐬🗽', callback_data='stats'),
+            InlineKeyboardButton('💐 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 👨‍🏫', callback_data='contact')
         ], [
-            InlineKeyboardButton('🍀 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 ☘️', callback_data='source')
+            InlineKeyboardButton('🍀 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ☘️', callback_data='source')
         ], [
-            InlineKeyboardButton('🍁𝗙𝗜𝗟𝗘 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗧𝗛𝗢𝗗🍁', callback_data='info')
+            InlineKeyboardButton('🍁𝐅𝐢𝐥𝐞 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐭𝐡𝐨𝐝🍁', callback_data='info')
         ], [
-            InlineKeyboardButton('🌋 𝗘𝗫𝗧𝗥𝗔 𝗠𝗢𝗢𝗗𝗦 🏯', callback_data='mods')
+            InlineKeyboardButton('🌋 𝐌𝐨𝐨𝐝𝐬 🏯', callback_data='mods')
         ], [
-            InlineKeyboardButton('🎋 𝗖𝗛𝗘𝗖𝗞 𝗣𝗜𝗡𝗚 🌿', callback_data='pongd')
+            InlineKeyboardButton('🎋 𝐂𝐡𝐞𝐜𝐤 𝐏𝐢𝐧𝐠 🌿', callback_data='pongd')
         ], [
-            InlineKeyboardButton('‹‹‹🦞 𝗛𝗢𝗠𝗘 𝗣𝗔𝗚𝗘 ☠️', callback_data='start')
+            InlineKeyboardButton('‹‹‹🦞 𝐇𝐨𝐦𝐞 𝐏𝐚𝐠𝐞 ☠️', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -617,9 +617,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "contact":
         buttons = [[
-            InlineKeyboardButton('🍁 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 🍁', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🍁 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 🍁', url='https://t.me/Owner_of_qtmve')
         ], [     
-            InlineKeyboardButton('🥀𝗖𝗢𝗡𝗧𝗔𝗖𝗧👨‍🏫', url='https://t.me/QTVS_BOT_X_CLOUD')
+            InlineKeyboardButton('🥀𝗖𝗢𝗡𝗧𝗔𝗖𝗧👨‍🏫', url='https://t.me/Qtmve_linkzZz')
         ], [  
             InlineKeyboardButton('‹‹‹❄𝗕𝗔𝗖𝗞❄', callback_data='about')
         ], [
