@@ -43,25 +43,21 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
 
-            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton('🍁𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
 
             ],[
 
-            InlineKeyboardButton('💥 Main Channal 💥', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
 
-            InlineKeyboardButton('🔎 Request Group 🔍', url='https://t.me/+LV_Q9SsajwRkNjdl')
-
-            ],[
-
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/+LV_Q9SsajwRkNjdl')
 
             ],[
 
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
+            InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data= 'about')
 
             ],[
 
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('🍁 𝗘𝗡𝗗 🍁', callback_data='close_data')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -81,7 +77,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Jᴏɪɴ Uᴩᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 😜", url=invite_link.invite_link
+                    "🍁𝕁𝕆𝕀ℕ ℕ𝕆𝕎 𝕄𝕐 ℂℍ𝔸ℕℕ𝔼𝕃🍁", url=invite_link.invite_link
                 )
             ]
         ]
@@ -102,16 +98,14 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton('🍁𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/+LV_Q9SsajwRkNjdl')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/+LV_Q9SsajwRkNjdl')
             ],[
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data= 'about')
             ],[
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
-            ],[
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('🍁 𝗘𝗡𝗗 🍁', callback_data='close_data') 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -261,7 +255,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🚸 ᴅᴇʟᴇᴛᴇ', callback_data='close_data') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🍁𝔻𝔼𝕃𝔼𝕋𝔼 𝕄𝔸𝕄𝔼🥀', callback_data='close_data') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
