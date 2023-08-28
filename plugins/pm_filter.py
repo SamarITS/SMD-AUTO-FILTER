@@ -438,16 +438,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton('🍁𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/+LV_Q9SsajwRkNjdl')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/+LV_Q9SsajwRkNjdl')
             ],[
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('☠️ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 ☠️', callback_data='sources')
             ],[
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
+            InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data= 'about')
             ],[
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('🍁 𝗘𝗡𝗗 🍁', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -457,21 +457,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/QTVS_BOT_X_CLOUD'),
-            InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
+            InlineKeyboardButton('🦞 𝗨𝗣𝗗𝗔𝗧𝗦 ❄', url='https://t.me/QTVS_BOT_X_CLOUD'),
+            InlineKeyboardButton('👾 𝗦𝗛𝗔𝗥𝗘 𝗠𝗘 🌿', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
-            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats'),
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
+            InlineKeyboardButton('🌹 𝗦𝗧𝗔𝗧𝗦 🗽', callback_data='stats'),
+            InlineKeyboardButton('💐 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 👨‍🏫', callback_data='contact')
         ], [
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='source')
+            InlineKeyboardButton('🍀 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 ☘️', callback_data='source')
         ], [
-            InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
+            InlineKeyboardButton('🍁𝗙𝗜𝗟𝗘 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗧𝗛𝗢𝗗🍁', callback_data='info')
         ], [
-            InlineKeyboardButton('👋 Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs 👋', callback_data='mods')
+            InlineKeyboardButton('🌋 𝗘𝗫𝗧𝗥𝗔 𝗠𝗢𝗢𝗗𝗦 🏯', callback_data='mods')
         ], [
-            InlineKeyboardButton('📦 Cʜᴇᴄᴋ Pɪɴɢ 📡', callback_data='pongd')
+            InlineKeyboardButton('🎋 𝗖𝗛𝗘𝗖𝗞 𝗣𝗜𝗡𝗚 🌿', callback_data='pongd')
         ], [
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('‹‹‹🦞 𝗛𝗢𝗠𝗘 𝗣𝗔𝗚𝗘 ☠️', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -481,23 +481,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
        )
     elif query.data == "mods":
         buttons = [[
-            InlineKeyboardButton('🖼️ Tᴇʟᴇɢʀᴀᴘʜ 🔭', callback_data='tele')
+            InlineKeyboardButton('🖼️ 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗣𝗛 🔭', callback_data='tele')
         ],[
-            InlineKeyboardButton('🗿 Cʜᴇᴄᴋ Pɪɴɢ ✏️', callback_data='pong')
+            InlineKeyboardButton('❄ 𝗣𝗜𝗡𝗚 𝗖𝗛𝗘𝗖𝗞 🌋', callback_data='ping)
         ],[
-            InlineKeyboardButton('🤙 Sʜᴀʀᴇ Tᴇxᴛ 🤙', callback_data='share')
+            InlineKeyboardButton('🤙 𝗦𝗛𝗔𝗥𝗘 𝗧𝗘𝗫𝗧 🤙', callback_data='share')
         ],[
-            InlineKeyboardButton('🧑‍💻 Cᴀʀʙᴏɴ Gᴇɴᴇʀᴀᴛᴏʀ ✴️', callback_data='carbon')
+            InlineKeyboardButton('🧑‍💻 𝗖𝗔𝗥𝗕𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 ✴️', callback_data='carbon')
         ],[ 
-            InlineKeyboardButton('🙌 Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ 📝', callback_data='font')
+            InlineKeyboardButton('👨‍🏫 𝗙𝗢𝗡𝗧 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 📝', callback_data='font')
         ],[  
-            InlineKeyboardButton("▶️ Yᴛ Vɪᴅᴇᴏ Dᴏᴡɴʟᴀᴅᴇʀ 🎦", callback_data='video')
+            InlineKeyboardButton("🍁𝗬𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 🍁", callback_data='video')
         ],[
-            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats')
+            InlineKeyboardButton('🔭 𝗦𝗧𝗔𝗧𝗦 📊', callback_data='stats')
         ],[
-            InlineKeyboardButton('😊 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ☺', url='https://t.me/QTVS_BOT_X_CLOUD')
+            InlineKeyboardButton('❤‍🔥 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 👨‍🏫', url='https://t.me/QTVS_BOT_X_CLOUD')
         ],[
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('‹‹‹❄ 𝗕𝗔𝗖𝗞 ❄', callback_data='about')
         ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -578,9 +578,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sources":
         buttons = [[
 
-            InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='https://t.me/QTVS_BOT_X_CLOUD')
+            InlineKeyboardButton('🍁𝗥𝗘𝗣𝗢🍁', url='https://t.me/QTVS_BOT_X_CLOUD')
         ], [
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('‹‹‹❄𝗛𝗢𝗠𝗘❄', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -591,9 +591,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
 
-            InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='https://t.me/QTVS_BOT_X_CLOUD')
+            InlineKeyboardButton('🍁𝗥𝗘𝗣𝗢🍁', url='https://t.me/QTVS_BOT_X_CLOUD')
         ], [
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('‹‹‹❄𝗛𝗢𝗠𝗘❄', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -603,11 +603,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/SMD_Dulinks/23')
+            InlineKeyboardButton('🦞 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 🦞', url='https://t.me/SMD_Dulinks/23')
         ], [
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
+            InlineKeyboardButton('🥀𝗖𝗢𝗡𝗧𝗔𝗖𝗧👨‍🏫', callback_data='contact')
         ], [
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('‹‹‹❄𝗕𝗔𝗖𝗞❄', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -617,11 +617,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "contact":
         buttons = [[
-            InlineKeyboardButton('😳 Cʀᴇᴀᴛᴏʀ 😳', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🍁 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 🍁', url='https://t.me/SMD_Owner')
         ], [     
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', url='https://t.me/QTVS_BOT_X_CLOUD')
+            InlineKeyboardButton('🥀𝗖𝗢𝗡𝗧𝗔𝗖𝗧👨‍🏫', url='https://t.me/QTVS_BOT_X_CLOUD')
         ], [  
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('‹‹‹❄𝗕𝗔𝗖𝗞❄', callback_data='about')
         ], [
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -736,7 +736,7 @@ async def auto_filter(client, msg, spoll=False):
                 await client.send_message(file_req_channel,f"-🦋 #Your_File 🦋-\n\n📝Fɪʟᴇ Nᴀᴍᴇ :{search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ: {message.from_user.first_name}\n\n Usᴇʀ Iᴅ :{message.from_user.id}\n\n🗃Cᴏᴅᴇᴅᴇᴅ Bʏ  @QTVS_BOT_X_CLOUD",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Fɪʟᴇ Uᴩʟᴏᴀᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ 🔺", callback_data="close_data")]]))
                 l = await message.reply_text(text=f"△ Hᴇʏ Fʀɪᴇɴᴅ {message.from_user.first_name} 😎,\n\nʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴇɴᴛ ᴛᴏ ᴏᴜʀ ᴀᴅᴍɪɴ'ꜱ ᴅᴀꜱʜʙᴏᴀʀᴅ !\n\nᴘʟᴇᴀꜱᴇ ᴋᴇᴇᴘ ꜱᴏᴍᴇ ᴘᴀᴛɪᴇɴᴄᴇ !\nᴛʜᴇʏ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴀꜱ ꜱᴏᴏɴ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ.\n\n➟ 📝Cᴏɴᴛᴇɴᴛ Nᴀᴍᴇ : {search}\n\n➟ 👮 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ : {message.from_user.first_name}\n\n༺ @QTVS_BOT_X_CLOUD༻\n\n🦋・‥☆Sᴜᴩᴩᴏʀᴛ Oᴜʀ Cʜᴀɴɴᴇʟ ☆‥・🦋\n╰┈➤・☆ @SMD_Owner ☆",
-                                                                                                       reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("━ • │▌║  Aᴅᴅ Mᴇ Tᴏ Uʀ Gʀᴏᴜᴩ  ║▌│ • ━", url=f'http://t.me/{temp.U_NAME}?startgroup=true')],[InlineKeyboardButton("✪ QTVS BOTz ✪", url="https://t.me/QTVS_BOT_X_CLOUD"), InlineKeyboardButton("✪ Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ ✪", url="https://t.me/QTVS_BOT_X_CLOUD"), InlineKeyboardButton("✪ Rᴇᴩᴏ ✪", url="https://github.com/Samaritsme/PremiumFilter")],[InlineKeyboardButton("╚»♥️Dᴇʟᴇᴛᴇ Tʜɪs Mᴇssᴀɢᴇ ♥️«╝", callback_data="close_data")]]))
+                                                                                                       reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("━ • │▌║  Aᴅᴅ Mᴇ Tᴏ Uʀ Gʀᴏᴜᴩ  ║▌│ • ━", url=f'http://t.me/{temp.U_NAME}?startgroup=true')],[InlineKeyboardButton("✪ QTVS BOTz ✪", url="https://t.me/QTVS_BOT_X_CLOUD"), InlineKeyboardButton("✪ Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ ✪", url="https://t.me/QTVS_BOT_X_CLOUD"), InlineKeyboardButton("✪ Rᴇᴩᴏ ✪", url="https://t.me/QTVS_BOT_X_CLOUD")],[InlineKeyboardButton("╚»♥𝗗𝗘𝗟𝗘𝗧𝗘 𝗠𝗘𝗦𝗦𝗔𝗚𝗘𝗦«╝", callback_data="close_data")]]))
                 await asyncio.sleep(12)
                 await l.delete()
                 if settings["spell_check"]:
@@ -824,7 +824,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>😙Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention} \n\n😊 Yᴏᴜʀ Qᴜᴇʀʏ : {search} \n\n📂Tᴏᴛᴀʟ Fɪʟᴇs Fᴏᴜɴᴅᴇᴅ : {str(total_results)}</b>"
+        cap = f"<b> 😙Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention} \n\n😊 Yᴏᴜʀ Qᴜᴇʀʏ : {search} \n\n📂Tᴏᴛᴀʟ Fɪʟᴇs Fᴏᴜɴᴅᴇᴅ : {str(total_results)}</b>"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
