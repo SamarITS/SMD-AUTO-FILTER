@@ -21,13 +21,13 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
     
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
-    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Samandes_bot>🎋𝗣𝗨𝗟𝗟𝗜𝗡𝗚𝗢🎋</a>
-👨‍💻 𝗔𝗨𝗧𝗛𝗢𝗥 : <a href=https://t.me/SMD_Owner>🍁𝗠𝗔𝗟𝗔𝗧𝗛𝗜🍁</a>
-📝 𝗖𝗢𝗗𝗘 𝗘𝗗𝗜𝗧𝗜𝗢𝗡: <a href=https://t.me/SMD_Owner>🍁𝗣𝗥𝗜𝗬𝗔🍁</a>
-📚 𝗚𝗥𝗔𝗗𝗨𝗔𝗧𝗘 : <a href=https://t.me/SMD_Owner>🍁𝗛𝗘𝗠𝗔🍁</a>
-📡 𝗪𝗜𝗙𝗘 𝗡𝗔𝗠𝗘 : <a href=https://t.me/SMD_Owner>🍁𝗞𝗔𝗩𝗬𝗔🍁</a>
-📢 𝗟𝗢𝗩𝗘𝗥 𝗡𝗔𝗠𝗘: <a href=https://t.me/QTVS_BOT_X_CLOUD>🍁𝗠𝗔𝗔𝗥𝗔𝗡🍁</a>
-🌟 𝗦𝗨𝗣𝗘𝗥 𝗠𝗔𝗥𝗧 : <a href=https://t.me/QTVS_BOT_X_CLOUD>🍁𝗞𝗨𝗠𝗔𝗔𝗥𝗔𝗡🍁</a></b>"""
+    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/qtmvefilrer_bot>🎋𝐏𝐮𝐥𝐥𝐢𝐧𝐠𝐨𝐨🎋</a>
+👨‍💻 𝗔𝗨𝗧𝗛𝗢𝗥 : <a href=https://t.me/Owner_of_qtmve>🍁𝐂𝐨𝐝𝐞𝐫🎎</a>
+📝 𝗖𝗢𝗗𝗘 𝗘𝗗𝗜𝗧𝗜𝗢𝗡: <a href=https://t.me/SMD_Owner>🛸𝐕𝐚𝐫𝐢𝐲𝐚🚁</a>
+📚 𝗚𝗥𝗔𝗗𝗨𝗔𝗧𝗘 : <a href=https://t.me/Siva_Soft>🛬𝐌𝐚𝐚𝐦𝐚🚦</a>
+📡 𝗪𝗜𝗙𝗘 𝗡𝗔𝗠𝗘 : <a href=https://t.me/Svaraz>🎭𝐏𝐚𝐩𝐞𝐫 𝐢𝐝🔥</a>
+📢 𝗟𝗢𝗩𝗘𝗥 𝗡𝗔𝗠𝗘: <a href=https://t.me/Thavarajtj>🦞𝐋𝐂𝐔🌿</a>
+🌟 𝗦𝗨𝗣𝗘𝗥 𝗠𝗔𝗥𝗧 : <a href=https://t.me/QTVS_BOT_X_CLOUD>🥀𝐌𝐚𝐫𝐯𝐞𝐥 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐞🎋</a></b>"""
 
     SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @SAM_DUB_LEZHA
 
@@ -58,7 +58,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 • Hᴏᴡ Tᴏ Usᴇ
 • Tʏᴘᴇ /video 𝘈𝘯𝘥 (YᴏᴜTᴜʙᴇ Vɪᴅᴇᴏ Lɪɴᴋ)
 • Exᴀᴍᴘʟᴇ:
-• /video https://t.me/SAM_DUB_LEZHa"""
+• /video https://t.me/QTVS_BOT_X_CLOUD"""
 
     TELE_TXT = """▫️Hᴇʟᴘ: ▪️ Tᴇʟᴇɢʀᴀᴘʜ ▪️
      Tᴇʟᴇɢʀᴀᴘʜ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ
@@ -67,13 +67,13 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 
     MANUELFILTER_TXT = """<b>Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ</b> 😌 🔋
 
-<b>Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @SMD_Owner</b>
+<b>Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @Owner_of_qtmve</b>
 
 <b>Sᴇɴᴅ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇs Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴩᴇʟʟɪɴɢ</b>
 
 <b>Aɴᴅ Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Asᴋᴇᴅ Fɪʟᴇ</b>
 
-<b>Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ. » <a href=https://t.me/SAM_DUB_LEZHa>Totorial</a>.﹤/b>"""
+<b>Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ. » <a href=https://t.me/QTVS_BOT_X_CLOUD>Totorial</a>.﹤/b>"""
 
     CONTACT_TXT = """<b>
 <b>»» ° Oɴʟʏ Cᴏɴᴛᴀᴄᴛ Fᴏʀ Pᴀɪᴅ Wᴏʀᴋs / Pʀᴏʙʟᴇᴍ / Dᴏᴜʙᴛ / Cᴏʟʟᴀʙ / Hᴇʟᴩ °</b>
