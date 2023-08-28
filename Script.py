@@ -22,12 +22,12 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
     ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/qtmvefilrer_bot>🎋𝐏𝐮𝐥𝐥𝐢𝐧𝐠𝐨𝐨🎋</a>
-👨‍💻 𝗔𝗨𝗧𝗛𝗢𝗥 : <a href=https://t.me/Owner_of_qtmve>🍁𝐂𝐨𝐝𝐞𝐫🎎</a>
-📝 𝗖𝗢𝗗𝗘 𝗘𝗗𝗜𝗧𝗜𝗢𝗡: <a href=https://t.me/SMD_Owner>🛸𝐕𝐚𝐫𝐢𝐲𝐚🚁</a>
-📚 𝗚𝗥𝗔𝗗𝗨𝗔𝗧𝗘 : <a href=https://t.me/Siva_Soft>🛬𝐌𝐚𝐚𝐦𝐚🚦</a>
-📡 𝗪𝗜𝗙𝗘 𝗡𝗔𝗠𝗘 : <a href=https://t.me/Svaraz>🎭𝐏𝐚𝐩𝐞𝐫 𝐢𝐝🔥</a>
-📢 𝗟𝗢𝗩𝗘𝗥 𝗡𝗔𝗠𝗘: <a href=https://t.me/Thavarajtj>🦞𝐋𝐂𝐔🌿</a>
-🌟 𝗦𝗨𝗣𝗘𝗥 𝗠𝗔𝗥𝗧 : <a href=https://t.me/QTVS_BOT_X_CLOUD>🥀𝐌𝐚𝐫𝐯𝐞𝐥 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐞🎋</a></b>"""
+😈 𝐀𝐮𝐭𝐡𝐨𝐫 : <a href=https://t.me/Owner_of_qtmve>🍁𝐂𝐨𝐝𝐞𝐫🎎</a>
+👨‍🏫 𝐃𝐞𝐯𝐨𝐥𝐨𝐩𝐞𝐫 : <a href=https://t.me/SMD_Owner>🛸𝐕𝐚𝐫𝐢𝐲𝐚🚁</a>
+✍️ 𝐆𝐫𝐚𝐝𝐮𝐚𝐭𝐞 : <a href=https://t.me/Siva_Soft>🛬𝐌𝐚𝐚𝐦𝐚🚦</a>
+♠ 𝐖𝐢𝐟𝐞 𝐅𝐫𝐞𝐞: <a href=https://t.me/Svaraz>🎭𝐏𝐚𝐩𝐞𝐫 𝐢𝐝🔥</a>
+♣ 𝐇𝐮𝐬𝐛𝐚𝐧𝐝 𝐟𝐫𝐞𝐞: <a href=https://t.me/Thavarajtj>🦞𝐋𝐂𝐔🌿</a>
+⚜️ 𝐐𝐭𝐯𝐬𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥 : <a href=https://t.me/QTVS_BOT_X_CLOUD>🥀𝐌𝐚𝐫𝐯𝐞𝐥 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐞🎋</a></b>"""
 
     SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @SAM_DUB_LEZHA
 
