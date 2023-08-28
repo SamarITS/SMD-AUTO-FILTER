@@ -26,7 +26,7 @@ class script(object):
     
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
-    ABOUT_TXT = """<b>🛬𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/qtmvefilrer_bot>🎋𝐏𝐮𝐥𝐥𝐢𝐧𝐠𝐨𝐨🎋</a>
+    ABOUT_TXT = """<b>🛬𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/autofilterbotkeerthioffl_bot>𝐊𝐞𝐞𝐫𝐭𝐡𝐢 👸 𝐐𝐮𝐞𝐞𝐧 👸</a>
 😈 𝐀𝐫𝐭𝐢𝐬𝐭 : <a href=https://t.me/Owner_of_qtmve>🍁𝐂𝐨𝐝𝐞𝐫🎎</a>
 👑 𝐃𝐞𝐯𝐨𝐥𝐨𝐩𝐞𝐫 : <a href=https://t.me/SMD_Owner>🌿𝐉𝐨𝐛𝐛𝐢 𝐂𝐫⚜️</a>
 ✍️ 𝐆𝐫𝐚𝐝𝐮𝐚𝐭𝐞 : <a href=https://t.me/Siva_Soft>🛬𝐌𝐚𝐚𝐦𝐚🚦</a>
