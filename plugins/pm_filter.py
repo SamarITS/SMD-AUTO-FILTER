@@ -439,14 +439,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton('🍁 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩 🍁', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/SAM_DUB_LEZHa'),
             InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/SAM_DUB_LEEZZA')
             ],[
             InlineKeyboardButton('☠️ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ☠️', callback_data='sources')
             ],[
-            InlineKeyboardButton('🗽 𝐒𝐞𝐞 𝐚𝐛𝐨𝐮𝐭 👨‍🏫', callback_data= 'about')
+            InlineKeyboardButton('🗽 𝐒𝐞𝐞 𝐀𝐛𝐨𝐮𝐭 👨‍🏫', callback_data= 'about')
             ],[
             InlineKeyboardButton('🍁 𝐂𝐥𝐨𝐬𝐞 🍁', callback_data='close_data')
         ]]
@@ -461,12 +461,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🦞 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ❄', url='https://t.me/SMD_Owner'),
             InlineKeyboardButton('👾 𝐒𝐡𝐚𝐫𝐞 𝐦𝐞 🌿', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
-            InlineKeyboardButton('🌹𝐂𝐡𝐞𝐚𝐤 𝐒𝐭𝐚𝐭𝐬🗽', callback_data='stats'),
+            InlineKeyboardButton('🌹 𝐂𝐡𝐞𝐚𝐤 𝐒𝐭𝐚𝐭𝐬 🗽', callback_data='stats'),
             InlineKeyboardButton('💐 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 👨‍🏫', callback_data='contact')
         ], [
             InlineKeyboardButton('🍀 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ☘️', callback_data='source')
         ], [
-            InlineKeyboardButton('🍁𝐅𝐢𝐥𝐞 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐭𝐡𝐨𝐝🍁', callback_data='info')
+            InlineKeyboardButton('🍁 𝐅𝐢𝐥𝐞 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐭𝐡𝐨𝐝 🍁', callback_data='info')
         ], [
             InlineKeyboardButton('🌋 𝐌𝐨𝐨𝐝𝐬 🏯', callback_data='mods')
         ], [
@@ -579,7 +579,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sources":
         buttons = [[
 
-            InlineKeyboardButton('♣𝐑𝐞𝐩𝐨🎋', url='https://t.me/Owner_of_qtmve')
+            InlineKeyboardButton('♣𝐑𝐞𝐩𝐨🎋', url='https://t.me/SMD_Owner')
         ], [
             InlineKeyboardButton('❄ 𝐁𝐚𝐜𝐤𝐰𝐚𝐫𝐝 ❄', callback_data='start')
         ]]
