@@ -117,24 +117,24 @@ async def next_page(bot, query):
         off_set = offset - 6
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("‹‹‹ Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
-             InlineKeyboardButton(f"📃 Pᴀɢᴇs {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
+            [InlineKeyboardButton("♠𝐁𝐚𝐜𝐤", callback_data=f"next_{req}_{key}_{off_set}"),
+             InlineKeyboardButton(f"📃 𝐏𝐚𝐠𝐞𝐬 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
                                   callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
-             InlineKeyboardButton("Nᴇxᴛ ›››", callback_data=f"next_{req}_{key}_{n_offset}")])
+             InlineKeyboardButton("𝐍𝐞𝐱𝐭♣", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("‹‹‹ Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("♠𝐁𝐚𝐜𝐤", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("Nᴇxᴛ ›››", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("𝐍𝐞𝐱𝐭♣", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton("🅟🅜 பாருங்க Ғʀɴᴅs 🥴", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("🅟🅜 பாருங்க Ғʀɴᴅs 🥀", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
