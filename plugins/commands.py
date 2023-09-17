@@ -81,7 +81,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "♠ 𝐉𝐎𝐈𝐍 𝐅𝐎𝐑 𝐌𝐎𝐑𝐄 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ♣", url=invite_link.invite_link
+                    "🦂𝐉𝐨𝐢𝐧 𝐅𝐨𝐫 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🦞", url=invite_link.invite_link
                 )
             ]
         ]
@@ -90,9 +90,9 @@ async def start(client, message):
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton(" 🔄 𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍 🔄", callback_data=f"{pre}#{file_id}")])
+                btn.append([InlineKeyboardButton("✅ 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 ✅", callback_data=f"{pre}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton(" 🔄 𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍 🔄", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton("✅ 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 ✅", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
@@ -261,7 +261,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🎋 𝐃𝐞𝐥𝐞𝐭𝐞 🗽', callback_data='close_data') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🤹‍♂️ 𝐃𝐞𝐥𝐞𝐭𝐞 🏵', callback_data='close_data') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
@@ -310,9 +310,9 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("ᴘʀᴏᴄᴇssɪɴɢ...⏳", quote=True)
+        msg = await message.reply("𝐏𝐫𝐨𝐜𝐞𝐞𝐝𝐢𝐧𝐠...⏳", quote=True)
     else:
-        await message.reply('Rᴇᴘʟʏ ᴛᴏ ғɪʟᴇ ᴡɪᴛʜ /Delete ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴇʟᴇᴛᴇ', quote=True)
+        await message.reply('𝐑𝐞𝐩𝐥𝐲 𝐓𝐨 𝐅𝐢𝐥𝐞 𝐖𝐢𝐭𝐡 /Delete 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐃𝐞𝐥𝐞𝐭𝐞', quote=True)
         return
 
     for file_type in ("document", "video", "audio"):
@@ -320,7 +320,7 @@ async def delete(bot, message):
         if media is not None:
             break
     else:
-        await msg.edit('ᴛʜɪs ɪs ɴᴏᴛ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴇᴅɪᴀ')
+        await msg.edit('𝐓𝐡𝐢𝐬 𝐈𝐬 𝐍𝐨𝐭 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝 𝐌𝐞𝐝𝐢𝐚')
         return
     
     file_id, file_ref = unpack_new_file_id(media.file_id)
@@ -329,7 +329,7 @@ async def delete(bot, message):
         '_id': file_id,
     })
     if result.deleted_count:
-        await msg.edit('ғɪʟᴇs ɪS ᴅᴇʟᴇᴛᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ')
+        await msg.edit('𝐅𝐢𝐥𝐞𝐬 𝐈𝐬 𝐃𝐞𝐥𝐞𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐈𝐧 𝐌𝐘 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞')
     else:
         file_name = re.sub(r"(_|\-|\.|\+)", " ", str(media.file_name))
         result = await Media.collection.delete_many({
@@ -338,7 +338,7 @@ async def delete(bot, message):
             'mime_type': media.mime_type
             })
         if result.deleted_count:
-            await msg.edit('ғɪʟᴇs ɪs ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ')
+            await msg.edit('𝐅𝐢𝐥𝐞𝐬 𝐈𝐬 𝐃𝐞𝐥𝐞𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐈𝐧 𝐌𝐘 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞')
         else:
             # files indexed before https://github.com/EvamariaTG/EvaMaria/commit/f3d2a1bcb155faf44178e5d7a685a1b533e714bf#diff-86b613edf1748372103e94cacff3b578b36b698ef9c16817bb98fe9ef22fb669R39 
             # have original file name.
@@ -348,9 +348,9 @@ async def delete(bot, message):
                 'mime_type': media.mime_type
             })
             if result.deleted_count:
-                await msg.edit('ғɪʟᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ')
+                await msg.edit('𝐅𝐢𝐥𝐞𝐬 𝐈𝐬 𝐃𝐞𝐥𝐞𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐈𝐧 𝐌𝐘 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞')
             else:
-                await msg.edit('ғɪʟᴇs ɴᴏᴛ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ')
+                await msg.edit('𝐅𝐢𝐥𝐞𝐬 𝐍𝐨𝐭 𝐅𝐨𝐮𝐧𝐝 𝐈𝐧 𝐌𝐞 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞')
 
 
 @Client.on_message(filters.command('deleteall') & filters.user(ADMINS))
@@ -501,7 +501,7 @@ async def save_template(client, message):
     sts = await message.reply("ᴄʜᴇᴄᴋɪɴɢ ᴛᴇᴍᴘʟᴀᴛᴇ")
     userid = message.from_user.id if message.from_user else None
     if not userid:
-        return await message.reply(f"Yᴏᴜ ᴀʀᴇ ᴀɴᴏɴʏᴍᴏᴜꜱ ᴀᴅᴍɪɴ. Uꜱᴇ /connect {message.chat.id} in PM")
+        return await message.reply(f"Yᴏᴜ ᴀʀᴇ ᴀɴᴏɴʏᴍᴏᴜꜱ ᴀᴅᴍɪɴ. in PM")
     chat_type = message.chat.type
 
     if chat_type == enums.ChatType.PRIVATE:
