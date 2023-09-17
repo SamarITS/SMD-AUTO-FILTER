@@ -37,8 +37,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs 📢', url='https://t.me/SAM_DUB_LEZHa')
+            InlineKeyboardButton('🔰 𝐇𝐞𝐥𝐩 🗽', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('🦞𝐔𝐩𝐝𝐚𝐭𝐞𝐬🦂', url='https://t.me/SAM_DUB_LEZHa')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -139,7 +139,7 @@ async def re_enable_chat(bot, message):
 
 @Client.on_message(filters.command('stats') & filters.incoming)
 async def get_ststs(bot, message):
-    rju = await message.reply('ғᴇᴛᴄʜɪɴɢ sᴛᴀᴛs..')
+    rju = await message.reply('𝐅𝐚𝐭𝐜𝐡𝐢𝐧𝐠 𝐒𝐭𝐚𝐭𝐬..')
     total_users = await db.total_users_count()
     totl_chats = await db.total_chat_count()
     files = await Media.count_documents()
