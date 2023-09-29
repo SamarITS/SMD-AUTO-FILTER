@@ -388,7 +388,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 return
             else:
-                g = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                g = short_url(f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
                 await client.send_photo(chat_id=query.from_user.id, photo='https://graph.org/file/3e1b19a7444bc7ab9dd94.jpg', caption = f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}</b>", 
                                           reply_markup=InlineKeyboardMarkup(
             [
@@ -622,7 +622,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [     
             InlineKeyboardButton('🍀 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ☘️', url='https://t.me/SMD_Owner')
         ], [  
-            InlineKeyboardButton('‹‹‹🗽 𝐒𝐞𝐞 𝐚𝐛𝐨𝐮𝐭 👨‍🏫', callback_data='about')
+            InlineKeyboardButton('🗽 𝐒𝐞𝐞 𝐚𝐛𝐨𝐮𝐭 👨‍🏫', callback_data='about')
         ], [
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -635,7 +635,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🌿𝐑𝐞𝐟𝐫𝐞𝐬𝐡🌿', callback_data='rfrsh')
         ], [
-            InlineKeyboardButton('‹‹‹🗽 𝐒𝐞𝐞 𝐚𝐛𝐨𝐮𝐭 👨‍🏫', callback_data='about')
+            InlineKeyboardButton('🗽 𝐒𝐞𝐞 𝐚𝐛𝐨𝐮𝐭 👨‍🏫', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -655,7 +655,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🌿𝐑𝐞𝐟𝐫𝐞𝐬𝐡🌿', callback_data='rfrsh')
         ], [
-            InlineKeyboardButton('‹‹‹🗽 𝐒𝐞𝐞 𝐚𝐛𝐨𝐮𝐭 👨‍🏫', callback_data='about')
+            InlineKeyboardButton('🗽 𝐒𝐞𝐞 𝐚𝐛𝐨𝐮𝐭 👨‍🏫', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
