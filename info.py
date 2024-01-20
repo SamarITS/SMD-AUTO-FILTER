@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '13415474'))
-API_HASH = environ.get('API_HASH', '01bb828c0429beeabd6e9e841d026231')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5140705221:AAHNNdokdJqcSkQrWdGrG6e9_AmtMMScx6U')
+API_ID = int(environ.get('API_ID', '22939818'))
+API_HASH = environ.get('API_HASH', 'ef43fe3762fb69770897433112183da3')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6693659212:AAHt2xi5iaaHDi1YDP7JHz1UimoUNg9yAI0')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
@@ -31,7 +31,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://smdfilt:smdfilt@cluster0.zar9gml.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Gimmy10:Gimmy1010@cluster0.xhigbs1.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -63,14 +63,14 @@ LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies 
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
-HOW_TO_DOWNLOAD =  environ.get('HOW_TO_DOWNLOAD', 'https://t.me/SMD_Dulinks/27')
+HOW_TO_DOWNLOAD =  environ.get('HOW_TO_DOWNLOAD', 'https://t.me/SMD_Dulinks/28')
 
 AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS',43200))
 
 FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', LOG_CHANNEL))
 
-SHORTNER_SITE =  environ.get('SHORTNER_SITE', '') #Put Only Shortner Site domain don't put like this https://tnlink.in/
+SHORTNER_SITE =  environ.get('SHORTNER_SITE', 'upshrink.com') #Put Only Shortner Site domain don't put like this https://tnlink.in/
 
-SHORTNER_API =  environ.get('SHORTNER_API', '')
+SHORTNER_API =  environ.get('SHORTNER_API', '0b43fe204c82d7e5f0fb6bd02ca125f4260f871b')
 
 AUTO_DELETE =  environ.get('AUTO_DELETE', 'True')
