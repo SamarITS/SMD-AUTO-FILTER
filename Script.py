@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """𝐇𝐞𝐥𝐥𝐨... {}
     
-𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/Samandes_bot><b>🏞 𝐊𝐮𝐭𝐭𝐲 𝐏𝐚𝐚𝐩𝐚 🎇</b></a>
+𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/Gimmy_filtbot><b>🦋𝐒𝐌𝐃_𝐅𝐢𝐥𝐭𝐞𝐫🍁</b></a>
 
 𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬, 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐌𝐚𝐤𝐞 𝐌𝐞 𝐀𝐝𝐦𝐢𝐧.. 𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫
 
@@ -26,13 +26,13 @@ class script(object):
     
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
-    ABOUT_TXT = """<b>🎧 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/Samandes_bot>🏞 𝐊𝐮𝐭𝐭𝐲 𝐏𝐚𝐚𝐩𝐚 🎇</a>
+    ABOUT_TXT = """<b>🎧 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/Gimmy_filtbot>🦋𝐒𝐌𝐃_𝐅𝐢𝐥𝐭𝐞𝐫🍁</a>
 😈 𝐀𝐫𝐭𝐢𝐬𝐭 : <a href=https://t.me/SMD_Owner>🍁𝐂𝐨𝐝𝐞𝐫🎎</a>
 👑 𝐃𝐞𝐯𝐨𝐥𝐨𝐩𝐞𝐫 : <a href=https://t.me/SMD_Owner>🌿𝐌𝐚𝐤𝐞𝐫⚜️</a>
 ✍️ 𝐆𝐫𝐚𝐝𝐮𝐚𝐭𝐞 : <a href=https://t.me/SMD_Owner>🛬 𝐏𝐫𝐨𝐝𝐮𝐜𝐞𝐫🚦</a>
 ♠ 𝐊𝐨𝐥𝐚𝐫𝐮 : <a href=https://t.me/SMD_Owner>🎭𝐒𝐫𝐞𝐞𝐫𝐚𝐚𝐦🔥</a>
 👨‍🔧 𝐇𝐞𝐥𝐩𝐞𝐫 : <a href=https://t.me/SMD_Owner>🦞𝐑𝐚𝐚𝐦🌿</a>
-⚜️ 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 : <a href=https://t.me/QTVS_BOT_X_CLOUD>🥀𝐌𝐂𝐔🎋</a></b>"""
+⚜️ 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 : <a href=https://t.me/SMD_BotZ>🥀𝐌𝐂𝐔🎋</a></b>"""
 
     SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @SMD_Owner
 
