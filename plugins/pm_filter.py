@@ -187,20 +187,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Tʜᴇʀᴇ ᴀʀᴇ ɴᴏ ᴀᴄᴛɪᴠᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ!! Cᴏɴɴᴇᴄᴛ ᴛᴏ ꜱᴏᴍᴇ ɢʀᴏᴜᴘꜱ ғɪʀꜱᴛ.", quote=True)
-                    return await query.answer(' ˆ°• 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 •°ˆ ')
+                    return await query.answer('🦋𝐒𝐌𝐃_𝐁𝐎𝐓𝐳🍁')
             else:
                 await query.message.edit_text(
                     "Iᴀᴍ Nᴏᴛ Cᴏɴɴᴇᴄᴛᴇᴅ Tᴏ Aɴʏ Gʀᴏᴜᴩ \nCʜᴇᴄᴋ /connections Oʀ Cᴏɴɴᴇᴄᴛ Tᴏ Aɴʏ Gʀᴏᴜᴩ",
                     quote=True
                 )
-                return await query.answer(' ˆ°• 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 •°ˆ ')
+                return await query.answer('🦋𝐒𝐌𝐃_𝐁𝐎𝐓𝐳🍁')
 
         elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             grp_id = query.message.chat.id
             title = query.message.chat.title
 
         else:
-            return await query.answer(' ˆ°• 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 •°ˆ ')
+            return await query.answer('🦋𝐒𝐌𝐃_𝐁𝐎𝐓𝐳🍁')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -254,7 +254,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer(' ˆ°• 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 •°ˆ ')
+        return await query.answer('🦋𝐒𝐌𝐃_𝐁𝐎𝐓𝐳🍁')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -275,7 +275,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Some error occurred!!', parse_mode=enums.ParseMode.MARKDOWN)
-        return await query.answer(' ˆ°• 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 •°ˆ ')
+        return await query.answer('🦋𝐒𝐌𝐃_𝐁𝐎𝐓𝐳🍁')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -298,7 +298,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Sᴏᴍᴇ Eʀʀᴏʀ Oᴄᴄᴜʀᴇᴅ!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer(' ˆ°• 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 •°ˆ ')
+        return await query.answer('🦋𝐒𝐌𝐃_𝐁𝐎𝐓𝐳🍁')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -316,7 +316,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Sᴏᴍᴇ Eʀʀᴏʀ Oᴄᴄᴜʀᴇᴅ!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer(' ˆ°• 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 •°ˆ ')
+        return await query.answer('🦋𝐒𝐌𝐃_𝐁𝐎𝐓𝐳🍁')
     elif query.data == "backcb":
         await query.answer()
 
@@ -327,7 +327,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer(' ˆ°• 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 •°ˆ ')
+            return await query.answer('🦋𝐒𝐌𝐃_𝐁𝐎𝐓𝐳🍁')
         buttons = []
         for groupid in groupids:
             try:
@@ -717,7 +717,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer(' ˆ°• QTVS BOTz •°ˆ ')
+    await query.answer('🦋𝐒𝐌𝐃_𝐁𝐎𝐓𝐳🍁')
 
 
 async def auto_filter(client, msg, spoll=False):
